@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic HTML</title>
+    <link rel="icon" href="img/logosck.png" type="icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,6 +24,7 @@
                     <li><a href="#beranda">Beranda</a></li>
                     <li><a href="#profil">Profil</a></li>
                     <li><a href="#program">Program</a></li>
+                    <li><a href="#galeri">Galeri</a></li>
                     <li><a href="#berita">Berita</a></li>
                     <li><a href="#kontak">Kontak</a></li>
                 </ul>
@@ -104,6 +106,81 @@
             </div>
         </section>
 
+        <!-- Gallery -->
+        <section id="galeri" class="gallery">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Galeri Sekolah</h2>
+                    <p>Fasilitas, Aktivitas, dan Ekstrakurikuler di Yayasan Pendidikan Cinta Kasih Tzu Chi</p>
+                </header>
+
+                <!-- Fasilitas -->
+                <div class="gallery-category">
+                    <h3>Fasilitas</h3>
+                    <div class="gallery-grid">
+                        <figure class="gallery-item">
+                            <img src="img/fasilitas/Lapangan-Outdoor-scaled.jpg" alt="Lapangan Outdoor">
+                            <figcaption>Lapangan Outdoor</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="img/fasilitas/Aula-Serba-Guna-lt.3A-Kapasitas-300-orang-scaled.jpg" alt="Aula Serba Guna">
+                            <figcaption>Aula Serba Guna Lt. 3A (Kapasitas 300 Orang)</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="img/fasilitas/Lab.IPA-SD-2-scaled.jpg" alt="Laboratorium IPA SD">
+                            <figcaption>Laboratorium IPA SD</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="img/fasilitas/Ruang-Perpustakaan-SD-scaled.jpg" alt="Ruang Perpustakaan SD">
+                            <figcaption>Ruang Perpustakaan SD</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="img/fasilitas/Ruang-UKS-3-scaled.jpg" alt="Ruang UKS">
+                            <figcaption>Ruang UKS</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Aktivitas -->
+                <div class="gallery-category">
+                    <h3>Aktivitas</h3>
+                    <div class="gallery-grid">
+                        <figure class="gallery-item">
+                            <img src="img/aktivitas/Bulan-Bahasa-scaled.jpg" alt="Bulan Bahasa">
+                            <figcaption>Bulan Bahasa</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="img/aktivitas/Gelar-Karya-P5-scaled.jpg" alt="Gelar Karya P5">
+                            <figcaption>Gelar Karya P5</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="img/aktivitas/Karya-Wisata-scaled.jpg" alt="Karya Wisata">
+                            <figcaption>Karya Wisata</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Ekstrakurikuler -->
+                <div class="gallery-category">
+                    <h3>Ekstrakurikuler</h3>
+                    <div class="gallery-grid">
+                        <figure class="gallery-item">
+                            <img src="img/Ekstrakurikuler/20250116-Ekskul-Futsal-SD-scaled.jpeg" alt="Ekskul Futsal SD">
+                            <figcaption>Ekskul Futsal SD</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="img/Ekstrakurikuler/20250116-Ekskul-IT-SD.jpeg" alt="Ekskul IT SD">
+                            <figcaption>Ekskul IT SD</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="img/Ekstrakurikuler/20250116-Ekskul-Taekwondo.jpeg" alt="Ekskul Taekwondo">
+                            <figcaption>Ekskul Taekwondo</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- News -->
         <section id="berita" class="news">
             <div class="container">
@@ -142,25 +219,21 @@
                 <section class="contact-info">
                     <h3>Kontak Kami</h3>
                     <address>
-                        <p>Jl. Pantai Indah Utara 2, Pantai Indah Kapuk</p>
-                        <p>Jakarta Utara, 14460</p>
-                        <p>Email: info@cintakasihtzuchi.sch.id</p>
-                        <p>Telepon: (021) 1234-5678</p>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Jl. Pantai Indah Utara 2, Pantai Indah Kapuk, Jakarta Utara, 14460</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>info@cintakasihtzuchi.sch.id</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>(021) 1234-5678</span>
+                        </div>
                     </address>
                 </section>
-                
-                <section class="quick-links">
-                    <h3>Tautan Cepat</h3>
-                    <nav>
-                        <ul>
-                            <li><a href="#beranda">Beranda</a></li>
-                            <li><a href="#profil">Profil</a></li>
-                            <li><a href="#program">Program</a></li>
-                            <li><a href="#berita">Berita</a></li>
-                        </ul>
-                    </nav>
-                </section>
-                
+
                 <section class="social-media">
                     <h3>Media Sosial</h3>
                     <div class="social-links">
@@ -169,10 +242,19 @@
                         <a href="#" aria-label="YouTube">YouTube</a>
                     </div>
                 </section>
+
+                <section class="reflection">
+                    <h3>Kata Perenungan</h3>
+                    <blockquote>
+                        <p>"Pendidikan adalah fondasi untuk membangun masyarakat yang lebih baik.
+                            Melalui pendidikan, kita dapat menumbuhkan cinta kasih dan kemanusiaan."</p>
+                        <p>- Master Cheng Yen</p>
+                    </blockquote>
+                </section>
             </div>
             
             <div class="copyright">
-                <p>&copy; 2023 Yayasan Pendidikan Cinta Kasih Tzu Chi. Semua Hak Dilindungi.</p>
+                <p>&copy; 2025 Yayasan Pendidikan Cinta Kasih Tzu Chi. Semua Hak Dilindungi.</p>
             </div>
         </div>
     </footer>
